@@ -1,7 +1,7 @@
-# W5500 Driver for Parallax Propellar
+# W5500 Driver for Parallax Propeller
 
 ## Description
--. [Parallax Propellar chip](http://parallax.com/microcontrollers/propeller)
+-. [Parallax Propeller chip](http://parallax.com/microcontrollers/propeller)
 
 -. [WIZnet W5500 Ethernet controller](http://wizwiki.net/wiki/doku.php?id=products:w5500:start)
 
