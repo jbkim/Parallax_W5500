@@ -7,12 +7,31 @@
 
 -. [WIZnet WIZ550io module](http://wizwiki.net/wiki/doku.php?id=products:wiz550io:allpages)
 
-## Files
-* W5500.spin : W5500 driver
-* Socket.spin : Socket library
-* TcpMultiSocketServerDemo.spin : webserver demo program
+## Folder
+* \W5500 Driver : W5500.spin & socket.spin
+* \Example : DHCP, DNS, TCP server, RCP client, Html 5 Web server, Pop, SMTP protocol examples
 
-## Connection
+  * DhcpDemo
+  * DhcpObjectDemo
+  * DnsDemo
+  * DnsUnittest
+  * TcpMultiSocketDemo
+  * TcpSocketBasicAuthenticationServerDemo : id = web, password = web
+  * TcpSocketClientDemo
+  * TcpSocketClientDemoDhcpDns
+  * TcpSocketClientDemoDns
+  * TcpSocketServerDemo
+  * PopUnitTest
+  * SmtpUnitTest
+  * Html5Graph
+  * Html5GraphBasicAuthentication :  : id = web, password = web
+  
+  Html 5 graph
+![image](https://raw.github.com/jbkim/Parallax_W5500/master/Photo/Html5_Graph.jpg)
+  
+
+
+## H/W Connection
   SPI_SCK       = 12 ' SPI clock from master to all slaves
   
   SPI_MISO      = 13 ' SPI master in serial out from slave
